@@ -11,18 +11,20 @@
     <link rel="stylesheet" href="styles/index.scss">
 </head>
 <body>
+  <div id="app"></div>
   <header>
-  <nav class="navbar"
-       < class="nav_container"
+  <nav class="navbar">
+       <class="nav_container">
         <a href="#seccion1"class="nav_liks"> Home</a>
         <a href="#seccion2"class="nav_links">Menú</a>
         <a href="#seccion3" class="nav_links">Nosotros</a>
         <a href="#seccion4" class="nav_links">Ubicación</a>
         <a href="#seccion5" class="nav_links">Reserva</a>
         <a href="#seccion6"class="nav_links">Contacto</a>
+      </class>
 
   </nav>
-    < id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -80,18 +82,17 @@
     <div id="seccion2"class="seccion2">
         <h1>Menú</h1>
     </div>
-    <div class="contenedor">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ipsam consectetur laboriosam vel nostrum iusto incidunt, maxime libero voluptatibus nemo excepturi ab magni alias at, corporis nobis ea omnis ipsa./p>
-    </div>
+<div class="contenedor">
   <figure>
     <img src="imagenes/chesse.jpg" alt="">
     <div class="capa">
       <h3> Conocé nuestros postres</h3>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nisi maxime atque architecto? Neque asperiores sint suscipit autem alias, inventore molestias eveniet excepturi vel est at assumenda nihil sequi blanditiis!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
       </p>
     </div>
   </figure>
+</div>
   
       
       <div id="seccion3" class="seccion3">
@@ -134,7 +135,13 @@
     </div>
 </header>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
-
+</script>
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script>
+  const contenedor = documento .GetElementById ('app');
+  const encabezado = React. createElemente ('h1', {}, 'Hola');
+  ReactDOM. render (encabezado, contenedor);
 </script>
 </body>
 <footer>
