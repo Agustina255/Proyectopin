@@ -1,5 +1,7 @@
-
-
+#sec1, #sec2, #sec3, #sec4, #sec5, #sec6 {
+    height: 800px;
+    width: auto;
+}
 html{
     scroll-behavior: smooth;
     scroll-padding: 50px;
@@ -23,28 +25,28 @@ aside{
     z-index: 100;
     background-color: black;
     text-decoration: none;
+    height: 200px;
 }
 
 .navbar a:hover{
         color:white;
-        text-decoration:underline;
         text-shadow: #E4DBA4;
     }
    
 .carousel {
-    position: static;
-    margin-bottom:0px;
+    position: fixed;
 }
-.wave{
+.wave {
     width: 100%;
-    margin-top:px;
+    margin-top: 100px;
 }
+
 .contenedor {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh ;
+    height: 100px ;
 }
 .contenedor figure{
     position: relative;
@@ -84,14 +86,13 @@ aside{
     color: white;
     font-size: x-large;
     margin-top: 30px;
-    
 }
 
 #ubicacion{
         width: 100%;
         filter: brightness(0.5);
     }
-body .seccion6 {
+#sec6 {
     background-image:url('plato2.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
