@@ -1,7 +1,4 @@
-#sec1, #sec2, #sec3, #sec4, #sec5, #sec6 {
-    height: 800px;
-    width: auto;
-}
+
 html{
     scroll-behavior: smooth;
     scroll-padding: 50px;
@@ -10,7 +7,7 @@ body{
     background-color: #E4DBA4
 }
 h1{
-    color: white;
+    color: rgb(244, 138, 32);
 }
 aside{
     float: left;
@@ -25,7 +22,7 @@ aside{
     z-index: 100;
     background-color: black;
     text-decoration: none;
-    height: 200px;
+    
 }
 
 .navbar a:hover{
@@ -33,14 +30,34 @@ aside{
         text-shadow: #E4DBA4;
     }
    
-.carousel {
-    position: fixed;
+.texto{
+    border-left-color: rgb(244, 138, 32);
+    border-left-style: solid;
+    border-left-width: 15px; 
+    margin-left: 20px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    width: 70%; 
+    height: 70%; 
+    padding-right: 0px; 
+    padding-left: 250px;
+}
+.texto p{
+    text-align: justify;
+ 
+}
+h5{
+    padding-bottom: 25px;
+   
 }
 .wave {
     width: 100%;
     margin-top: 100px;
 }
-
+.toast{
+    display:none;
+    opacity:0;
+}
 .contenedor {
     width: 100%;
     display: flex;
@@ -102,7 +119,7 @@ aside{
 .form{
     width: 600px;
     background-color: rgb(79, 76, 76);
-    padding:50px;
+    padding:35px;
     margin-right: 90px;
     margin-bottom: 30px;
     border-radius: 20px;
@@ -135,7 +152,8 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
-    height: 50px;
-    line-height: 50px;
+    line-height: 30px;
     width: 100%;
+    margin-bottom: 0px;
+    
 }
