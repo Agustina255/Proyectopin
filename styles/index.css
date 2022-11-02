@@ -1,30 +1,49 @@
 
 html{
     scroll-behavior: smooth;
-    scroll-padding: 50px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 10pt;
 }
 body{
-    background-color: #E4DBA4
+    background-color: #E4DBA4;
+    margin: 0px;
+    padding: 0%;
 }
 h1{
     color: rgb(244, 138, 32);
 }
-aside{
-    float: left;
-    width: 20%;
 
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: #E4DBA4;
+    text-decoration-color: #E4DBA4;
 }
 .navbar{
     color: #E4DBA4;
     width: 100%;
     scroll-margin-top: 100px;
     position: fixed;
-    z-index: 100;
+    z-index: 90;
     background-color: black;
+    height: 60px;
+    float: center;
+    left: 50%;
+    transform: translatex(-50%);
     text-decoration: none;
     
+    opacity: .92;
 }
-
+.btn-wsp{
+  position:fixed;
+  width: 70px; 
+  border-radius: 50px; 
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  z-index: 100; 
+  margin-left: 1350px;
+ 
+}
 .navbar a:hover{
         color:white;
         text-shadow: #E4DBA4;
@@ -49,6 +68,18 @@ aside{
 h5{
     padding-bottom: 25px;
    
+        font-size: 10.5pt;
+}
+.nav_links {
+    display: inline-block;
+    padding: 9px;
+    align-content: space-around;
+    width: auto;
+    text-align: center;
+}
+
+.carousel {
+    position: none;
 }
 .wave {
     width: 100%;
@@ -115,6 +146,22 @@ h5{
     background-attachment: fixed;
     background-size: cover;
     padding:15%
+}
+.sec2div {
+    text-align: center;
+    padding: 4em;
+    align-items: center;
+}
+.sec3div {
+    position: absolute;
+    padding: 2em;
+    padding-left: 4em;
+    background-color: #E4DBA4;
+}
+.sec4div {
+    padding-top: 10em;
+    position: absolute;
+    align-items: center;
 }
 .form{
     width: 600px;

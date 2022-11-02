@@ -8,19 +8,20 @@
     <link rel="shortcut icon" href="imagenes/logo.jpeg" type="image/x-icon"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/index.css">
+    <!--<link rel="stylesheet" href="C:\Users\Agus\Desktop\Proyectopin\fontello-1abf26fc.zip">-->
     <link rel="stylesheet" href="styles/index.scss">
+    
 </head>
 <body>
-  <div id="app"></div>
   <header>
-  <nav class="navbar">
+  <nav class="navbar center">
        <div class="nav_container">
-        <a href="#sec1"class="nav_liks"> Home</a>
-        <a href="#sec2"class="nav_links">Menú</a>
-        <a href="#sec3" class="nav_links">Nosotros</a>
-        <a href="#sec4" class="nav_links">Ubicación</a>
-        <a href="#sec5" class="nav_links">Reserva</a>
-        <a href="#sec6"class="nav_links">Contacto</a>
+        <a href="#sec1"class="nav_links">Intro</a>
+        <a href="#sec2"class="nav_links">¿Qué es?</a>
+        <a href="#sec3" class="nav_links">¿Quienes?</a>
+        <a href="#sec4" class="nav_links">¿Qué hacen?</a>
+        <a href="#sec5" class="nav_links">¿Donde?</a>
+        <a href="#sec6"class="nav_links">¡Háblanos!</a>
        </div>
   </nav>
 
@@ -28,9 +29,9 @@
   <!-- Sección ROW contenedor principal  -->
       <div class="row">
         <div class="col-12">
-          <div class="row">
+          <div class="">
             <div id="sec1" class="col-12">
-  <!-- Sección Carrusel  -->
+  <!-- Sección CARRUSEL  -->
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -69,6 +70,13 @@
                   <span class="visually-hidden">Next</span>
                 </button>
             </div>
+            <div>
+             <a href="https://api.whatsapp.com/send?phone=5493515922162" class="btn-wsp" target="_blank"></a>
+             <i class="icon-reserva"></i>
+            </div>
+            <div>
+            <img src="imagenes/reservacion.jpg"id="https://api.whatsapp.com/send?phone=5493515922162" class="btn-wsp"></img>
+            </div>
            <!--<div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
               <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
                 <div class="toast-header">
@@ -82,7 +90,7 @@
                 </div>
               </div>
             </div>
- <!-- Sección 2  -->
+ <!--Sección 2  -->
             <div id="sec2" class="col-12">
               <div class="align-self-center">
                   <div class="texto">
@@ -99,22 +107,35 @@
               </div>
                 </div>
              </div>
+ <!-- Otra Sección   -->
+            <div id="sec2" class="col-12">
+              <div class="align-self-center sec2div">
+                <h1>DRINK LINKS</h1>
+                <p>La pasión por la cocina se refleja en el establecimiento de barrio, en las afueras de Córdoba 
+                  Allí crecieron, en medio del bullicio de platos, ollas y clientes. El bar era su salón, el paisaje donde jugaban, hacían los deberes escolares, miraban la televisión… a la vez que, desde la cocina, surgían aromas de los guisos que su madre preparaba de forma generosa, sencilla y honesta.
+                  Una cocina de estilo libre
+                  Una cocina que abraza la emoción y la sensorialidad, desde un profundo sentido de la armonía y la hospitalidad heredado de las generaciones pasadas, tradición en balance perfecto con la creatividad, la innovación y la técnica.
+                  Despertar los sentidos, la memoria, la emoción. La armonía es destreza, la maestría humilde de hacer sencillas las complejas e infinitas conexiones contenidas en un plato, construir un discurso efímero en lo tangible para despertar a través del sabor lo esencialmente humano que perdura en el recuerdo. Contrastes integrados en una melodía de actos e historias que narran experiencias vividas desde la emoción, el paisaje, el producto, la magia y la sorpresa, la interrelación fraternal de tres mundos, sólido, líquido y dulce -Joan, Josep y Jordi- para explicaros qué hemos comido, qué nos ha emocionado, qué hemos aprendido, de dónde somos y hacia dónde vamos: el mundo con el que soñamos.
+                  Una cocina conectada a la tierra como despensa y hábitat, que dialoga con los pequeños productores que han crecido con nosotros. Que atisba un mundo que quiere ser humano, genuino y sensible.
+                  Contar con todas las técnicas e innovaciones, en una búsqueda continua y despierta de la quimérica perfección para poderos ofrecer una experiencia de 360º, agradecidos de que por suerte, nos visitéis con el corazón abierto. Eso nos mueve.
+                  Autenticidad, audacia, generosidad y hospitalidad. Bienvenidos.</p>
+              </div>
             </div>
- <!-- Sección 3  -->
+ <!-- Sección 3 NOSOTROS -->
               <div id="sec3" class="col-12">
                 <div class="row">
-                  <div style="position:absolute;" class="align-self-end" >
+                  <div class="col-4 align-self-end sec3div" >
                     <h2>NOSOTROS</h2>
                     La cocina asegura que el espíritu familiar y la modernidad van de la mano. El equipo de sala está presente en la reunión y atiende a todos los clientes con la misma atención, ya sean antiguos habituales o futuros.
                   </div>
-                  <div class="align-self-start">
-                    <img src="imagenes/fondo3.jpg">
+                  <div class="">
+                    <img src="imagenes/fondo1.jpg" class="img-fluid" alt="Responsive image">
                 </div>
                 </div>
               </div>
- <!-- Sección 4  -->
-            <div id="sec4" class="col-12 row justify-content-around">
-              <div class="col-6" style="position:absolute;" ><div class="accordion" id="accordionExample">
+ <!-- Sección 4 ACORDION -->
+            <div id="sec4" class="row justify-content-around">
+              <div class="col-6 sec4div" ><div class="accordion" id="accordionExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -153,7 +174,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-12"><img src="imagenes/fondo 1.jpg">imagenes</div>
+            <div class=""><img src="imagenes/fondo3.jpg" class="img-fluid" alt="Responsive image"></div>
             </div>
  <!-- Sección 5  -->
             <div id="sec5" class="col-12 col-sm-12">
@@ -163,14 +184,20 @@
             </div>
  <!-- Sección 6  -->
     <div id="sec6" class="col-12">
+ <!-- Sección 5 MAPA -->
+            <div id="sec5" class="col-12">
+              <iframe src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6804.776833949866!2d-64.15922177432434!3d-31.486005826299028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a356b305f3df%3A0xb72b2b8907dcb275!2sFincas%20del%20Sur%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1666028629592!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="ubicacion"></iframe>
+            </div>
+ <!-- Sección 6 CONTACTAR -->
+      <div id="sec6" class="col-12">
               <h1>Contactar</h1>
       <section class="form align-self-center">
         <form>
           <h5>Por favor, rellená este formulario para contactar con la recepción de Cebus. Nos pondremos en contacto contigo lo antes posible.</h5>
-          <input class="controls" type="name" name="nombrecompleto" id="nombre" placeholder="Ingrese su nombre completo"></input>
-          <input class="controls" type="email" name="email" id="email" placeholder="Ingrese su email"></input>
-          <input class="controls" type="tel" name="telefono" id="telefono" placeholder="Ingrese su numero de teléfono"></input>
-          <input class="controls comentario" type="text" name="comentario" id="comentario" placeholder="Escriba un comentario"></input>
+          <input class="controls" type="name" name="nombrecompleto" id="nombre" placeholder="Ingrese su nombre completo" required>
+          <input class="controls" type="email" name="email" id="email" placeholder="Ingrese su email" required>
+          <input class="controls" type="tel" name="telefono" id="telefono" placeholder="Ingrese su numero de teléfono" required>
+          <input class="controls comentario" type="text" name="comentario" id="comentario" placeholder="Escriba un comentario" required>
           <label>
             <input type="checkbox" id="cbox1" value="first_checkbox"> Estoy de acuerdo con <a href="#"> Términos y condiciones<br>
             </input>
