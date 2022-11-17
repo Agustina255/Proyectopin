@@ -140,19 +140,29 @@ h5{
         width: 100%;
         filter: brightness(0.5);
     }
+    
+    #sec2 {
+        padding-top: 3.2em;
+    }
+    #sec1 {
+    }
+    #sec4 {
+       height: 900px;
+    }
 #sec6 {
     background-image:url('plato2.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    padding:15%
+    padding:20%
 }
 .sec2div {
     text-align: center;
-    padding: 4em;
+    padding: 5em;
     align-items: center;
 }
 .sec3div {
+    margin-bottom: 100px;
     position: absolute;
     padding: 2em;
     padding-left: 4em;
